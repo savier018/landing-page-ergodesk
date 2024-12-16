@@ -23,6 +23,18 @@
     gap: 2rem;
 }
 
+.navBar .logoImage {
+    width:4rem;
+    height: 3rem;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+
+.navBar .logoTitle {
+    display: flex;
+    align-items: center;
+}
+
 .navBar a {
     font-weight: 500;
     font-size: 1.1rem;
