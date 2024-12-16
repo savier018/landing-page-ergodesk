@@ -1,0 +1,24 @@
+.card {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 80%, 0.6);
+    padding: 2rem;
+    margin: 2rem;
+    max-width: 370px;
+    height: 400px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.card .cardTitle {
+    text-align: center;
+    margin: 1rem;
+}
+  
+.card .cardDescriptionList {
+    color: hsl(0, 0%, 0%);
+}
+
+.card li {
+    margin: 15px;
+}

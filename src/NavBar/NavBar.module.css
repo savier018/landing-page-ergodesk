@@ -1,0 +1,36 @@
+.navBar {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.navBar .websiteTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.navBar .websiteSections {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navBar a {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: inherit;
+    transition: 0.2s;
+}
+
+.navBar a:hover {
+    color: #c1c1c1;
+}
