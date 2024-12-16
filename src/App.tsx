@@ -21,6 +21,7 @@ function App() {
     <>
       <NavBar/>
       <Encabezado titulo={"¡Bienvenido a nuestro proyecto de Emprendimiento!"}/>
+      <h3 className='container'> Por la compra del producto, participa en una capacitación sobre buenas prácticas ergonómicas. </h3>
       <Imagenes/>
       <div className='app-container'>
         <PropValor/>
