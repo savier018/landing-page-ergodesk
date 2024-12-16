@@ -1,0 +1,27 @@
+.formContainer {
+    border: 1px solid hsl(0, 0%, 80%);
+    box-shadow: 5px 5px 5px hsla(0, 0%, 80%, 0.6);
+    border-radius: 10px;
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+}
+
+.verticalLine {
+    width: 1px;
+    background-color: #000000;
+    height: 400px; 
+}
+
+.qrTitle {
+    text-align: center;
+}
+
+.qrImage {
+    text-align: center;
+    height: 20rem;
+    width: 20rem;
+}

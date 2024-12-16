@@ -5,6 +5,7 @@ import Caracteristicas from './Caracteristicas/Caracteristicas'
 import Beneficios from "./Beneficios/Beneficios"
 import Encabezado from "./Encabezado/Encabezado";
 import Imagenes from './Imagenes/Imagenes';
+import Formulario from './Formulario/Formulario'
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
 
   const descripcionSocial = ["Contribución al medio ambiente por uso de materiales eco-amigables, además de que la huella de carbono se reduce en comparación con escritorios tradicionales.", "Proyección de una imagen moderna y consciente de la saludad, adaptado a la nueva cultura de trabajo híbrido y remoto."]
 
-  const caracteristicasProducto = ["Soporte acolchado y ergonómico para apoyar la muñeca, aliviando la presión y reduciendo el dolor y tensión en esa zona.", "Cuenta con brazos articulados y patas ajustables que permiten ajustar la altura e inclinación.", "Fabricado con materiales sostenibles de alta calidad, que permitan una resistencia y portabilidad adecuadas.", "Ligero con un peso máximo de 1.2 kg y fácil de transportar.", "Dimensiones de 25 x 50 x 2.5 cm", "Precio aproximado de $40.", ]
+  const caracteristicasProducto = ["Soporte acolchado y ergonómico para apoyar la muñeca, aliviando la presión y reduciendo el dolor y tensión en esa zona.", "Cuenta con brazos articulados y patas ajustables que permiten ajustar la altura e inclinación.", "Evita el sobrecalentamiento de tus dispositivos con ranuras de ventilación y espacio para ventiladores adicionales.", "Fabricado con materiales ecológicos, pesa solo 1.2 kg y cuenta con un diseño plegable, ideal para llevarlo a donde necesites.", "Dimensiones de 25 x 50 x 2.5 cm", "Precio aproximado entre $30 y $35.", ]
 
   return (
     <>
@@ -32,6 +33,9 @@ function App() {
         <Beneficios cardName={"Sociales"} cardDescriptions={descripcionSocial}/>
       </div>
       <Encabezado titulo={"Formulario para retroalimentación"}/>
+      <div className='form-container'>
+        <Formulario/>
+      </div>
     </>
   )
 
